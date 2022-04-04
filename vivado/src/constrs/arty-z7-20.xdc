@@ -1,0 +1,8 @@
+set_property PACKAGE_PIN H16 [get_ports sys_clock]
+set_property PACKAGE_PIN R14 [get_ports led_o]
+set_property PACKAGE_PIN M20 [get_ports sw0_i]
+set_property PACKAGE_PIN M19 [get_ports sw1_i]
+set_property IOSTANDARD LVCMOS33 [get_ports sys_clock]
+set_property IOSTANDARD LVCMOS33 [get_ports led_o]
+set_property IOSTANDARD LVCMOS33 [get_ports sw0_i]
+set_property IOSTANDARD LVCMOS33 [get_ports sw1_i]

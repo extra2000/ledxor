@@ -1,0 +1,7 @@
+.Xil
+
+petalinux/*
+!petalinux/.gitkeep
+
+vivado/run/*
+!vivado/run/.gitkeep
