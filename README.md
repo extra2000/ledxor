@@ -13,8 +13,8 @@ Target board: `digilentinc.com:arty-z7-20:part0:1.1`
 
 Clone this project and `cd` into the project root:
 ```
-git clone https://github.com/extra2000/ledxor.git
-cd ledxor
+git clone https://github.com/extra2000/vivado-ledxor.git
+cd vivado-ledxor
 ```
 
 
@@ -23,7 +23,7 @@ cd ledxor
 From the project root directory, execute the following command:
 ```
 cd vivado/run/
-flatpak run com.github.corna.Vivado -mode batch -source ../script/create_ledxor_prj.tcl -notrace -tclargs --project_name ledxor
+flatpak run com.github.corna.Vivado -mode batch -source ../script/create_prj.tcl -notrace -tclargs --project_name ledxor
 ```
 
 Then, load the Vivado project:
