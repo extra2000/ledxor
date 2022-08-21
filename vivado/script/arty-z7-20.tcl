@@ -33,7 +33,7 @@ if { [info exists ::user_project_name] } {
 }
 
 variable script_file
-set script_file "create_prj.tcl"
+set script_file "arty-z7-20.tcl"
 
 # Help information for this script
 proc print_help {} {
