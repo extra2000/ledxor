@@ -23,7 +23,7 @@ cd vivado-ledxor
 From the project root directory, execute the following command:
 ```
 cd vivado/run/
-flatpak run com.github.corna.Vivado -mode batch -source ../script/create_prj.tcl -notrace -tclargs --project_name ledxor
+flatpak run com.github.corna.Vivado -mode batch -source ../script/arty-z7-20.tcl -notrace -tclargs --project_name ledxor
 ```
 
 Then, load the Vivado project:
