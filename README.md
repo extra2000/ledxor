@@ -9,7 +9,9 @@ Simple project for FPGA.
 
 ## Preprequisites
 
-Target board: `digilentinc.com:arty-z7-20:part0:1.1`
+Target boards:
+* `digilentinc.com:arty-z7-20:part0:1.1`
+* `digilentinc.com:arty-s7-25:part0:1.1`
 
 Clone this project and `cd` into the project root:
 ```
@@ -20,7 +22,7 @@ cd vivado-ledxor
 
 ## Creating Vivado Project
 
-From the project root directory, execute the following command:
+From the project root directory, execute the following command (change `arty-z7-20.tcl` to `arty-s7-25.tcl` for Arty S7-25 board):
 ```
 cd vivado/run/
 flatpak run com.github.corna.Vivado -mode batch -source ../script/arty-z7-20.tcl -notrace -tclargs --project_name ledxor
@@ -34,7 +36,7 @@ flatpak run com.github.corna.Vivado -mode gui ./ledxor/ledxor.xpr
 Generate XSA file required by Vitis and PetaLinux.
 
 
-## Build PetaLinux
+## Build PetaLinux (Arty Z7-20 only)
 
 Fix permission issues:
 ```
